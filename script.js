@@ -2,7 +2,7 @@ class Stopwatch extends React.Component{
     constructor(display) {
         super(display)
         this.running = false;
-        this.display = display;
+        display = display;
         this.reset();
         this.print(this.times);
     }
