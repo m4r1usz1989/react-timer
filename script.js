@@ -58,7 +58,7 @@ class Stopwatch extends React.Component{
         clearInterval(this.watch);
     }
     render() {
-        return (
+        return(
             <div>
                 <nav className="controls">
                     <a href="#" className="button" id="start" onclick={stopwatch.start()}>Start</a>
@@ -80,5 +80,5 @@ function pad0(value) {
     return result;
 }
 
-var app = React.createElement(App);
+var app = React.createElement(Stopwatch);
 ReactDOM.render(app, document.getElementById('app'));
