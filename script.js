@@ -1,2 +1,2 @@
-var timer = React.createElement(timer);
-ReactDOM.render(timer, document.getElementById('app'));
+var app = React.createElement(App);
+ReactDOM.render(app, document.getElementById('app'));
