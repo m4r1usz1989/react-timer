@@ -1,0 +1,28 @@
+body {
+    background: #607D8B;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+.stopwatch {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: #BBBBBB;
+}
+
+.button {
+    color: #BBBBBB;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.button:hover {
+    color: #BBBBBB;
+
+}
