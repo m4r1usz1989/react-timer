@@ -1,7 +1,7 @@
 {
   "name": "timer",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://mariusz-domanski.github.io/react-timer/",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
